@@ -10,7 +10,8 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f3efb9;
     color: #533939;
-    font-size: 20px; /* Increased font size */
+    font-size: 20px;
+    /* Increased font size */
 }
 
 a {
@@ -52,10 +53,14 @@ a:hover {
     font-size: 1rem;
     color: #000000;
 }
+
 section {
-    padding-top: 65px; /* Adjust this value to make sure the content is visible */
-    scroll-margin-top: 65px; /* This prevents hiding of the top part of the section when linked */
+    padding-top: 65px;
+    /* Adjust this value to make sure the content is visible */
+    scroll-margin-top: 65px;
+    /* This prevents hiding of the top part of the section when linked */
 }
+
 /* About Me Section */
 .about-detail {
     margin-bottom: 25px;
@@ -67,11 +72,13 @@ section {
 }
 
 .about-detail p {
-    line-height: 1.7; /* Increased line spacing */
+    line-height: 1.7;
+    /* Increased line spacing */
 }
 
 /* Main Content and Section Styles */
-.main-content, .section {
+.main-content,
+.section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -111,9 +118,12 @@ section {
     margin-right: 10px;
     font-size: 24px;
 }
+
 .left-side h2 {
-    margin-bottom: 20px; /* Adjust this value for more or less space */
+    margin-bottom: 20px;
+    /* Adjust this value for more or less space */
 }
+
 /* Profile Section */
 .profile-pic {
     width: 190px;
@@ -151,7 +161,24 @@ section {
 
 .project ul {
     padding-left: 20px;
-    line-height: 1.7; /* Added line spacing */
+    line-height: 1.7;
+    /* Added line spacing */
+}
+
+.map-container {
+    position: relative;
+    width: 100%;         /* Responsive width (full width of the container) */
+    height: 380px;       /* Set the desired height of the map */
+    margin: 0 auto;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 /* Footer */
@@ -172,12 +199,15 @@ section {
 
 /* Responsive for small screens */
 @media (max-width: 768px) {
-    .main-content, .section {
+
+    .main-content,
+    .section {
         flex-direction: column;
         margin: 20px;
     }
 
-    .left-side, .right-side {
+    .left-side,
+    .right-side {
         flex: 100%;
     }
 
