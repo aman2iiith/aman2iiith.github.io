@@ -8,14 +8,14 @@
 /* Body and General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #f3efb9;
+    color: #533939;
     font-size: 20px; /* Increased font size */
 }
 
 a {
     text-decoration: none;
-    color: #007bff;
+    color: #2d629e;
 }
 
 a:hover {
@@ -30,8 +30,8 @@ a:hover {
 
 /* Navbar */
 .navbar {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ecd29a;
+    box-shadow: 0 2px 4px rgba(156, 138, 138, 0.1);
     padding: 15px;
     position: sticky;
     top: 0;
@@ -50,7 +50,7 @@ a:hover {
 
 .navbar ul li a {
     font-size: 1rem;
-    color: #333;
+    color: #000000;
 }
 section {
     padding-top: 65px; /* Adjust this value to make sure the content is visible */
@@ -77,7 +77,7 @@ section {
     justify-content: space-between;
     margin: 60px 80px;
     padding-bottom: 40px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #e4834a;
 }
 
 .left-side {
@@ -158,12 +158,12 @@ section {
 .footer {
     text-align: center;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: #eccea9;
     margin-top: 40px;
 }
 
 .footer p {
-    color: #666;
+    color: #473f3f;
 }
 
 .footer-name {
