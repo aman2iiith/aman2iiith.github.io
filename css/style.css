@@ -1,0 +1,187 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 20px; /* Increased font size */
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Spacing and Padding */
+.section {
+    padding: 40px 60px;
+    margin-bottom: 40px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    text-align: right;
+}
+
+.navbar ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    font-size: 1rem;
+    color: #333;
+}
+section {
+    padding-top: 65px; /* Adjust this value to make sure the content is visible */
+    scroll-margin-top: 65px; /* This prevents hiding of the top part of the section when linked */
+}
+/* About Me Section */
+.about-detail {
+    margin-bottom: 25px;
+}
+
+.about-detail ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.about-detail p {
+    line-height: 1.7; /* Increased line spacing */
+}
+
+/* Main Content and Section Styles */
+.main-content, .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 60px 80px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.left-side {
+    flex: 30%;
+    text-align: center;
+}
+
+.right-side {
+    flex: 70%;
+    padding-left: 40px;
+}
+
+/* Left-aligned projects and contact left side */
+.aligned-left {
+    text-align: left;
+}
+
+/* Contact Section */
+.contact-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-icon {
+    margin-right: 10px;
+    font-size: 24px;
+}
+.left-side h2 {
+    margin-bottom: 20px; /* Adjust this value for more or less space */
+}
+/* Profile Section */
+.profile-pic {
+    width: 190px;
+    height: 255px;
+    border-radius: 25%;
+    object-fit: fill;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.centered-name {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 15px 0;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+}
+
+/* Project Section */
+.project {
+    margin-bottom: 25px;
+}
+
+.project ul {
+    padding-left: 20px;
+    line-height: 1.7; /* Added line spacing */
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-top: 40px;
+}
+
+.footer p {
+    color: #666;
+}
+
+.footer-name {
+    font-weight: bold;
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+    .main-content, .section {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .left-side, .right-side {
+        flex: 100%;
+    }
+
+    .right-side {
+        padding-left: 0;
+    }
+}
